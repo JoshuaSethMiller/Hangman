@@ -1,0 +1,62 @@
+h1{
+  color: white;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 50px;
+}
+h3{
+  color: white;
+  font-size: 35px;
+}
+body{
+  background-image: url("background2.png");
+  background-repeat: no-repeat;
+  backgrond-attachment: fixed;
+  background-position: center;
+  background-color: #000;
+  height: 100%;
+}
+.hang{
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+  width: 550px;
+  height: 100%;
+}
+input[type='button']{
+  font-size: 16px;
+  color: #888;
+  background-color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+input[type='button']:hover{
+  background-color: white;
+  color: black;
+}
+#btn1{
+  margin: 10px;
+  font-size: 30px;
+  color: black;
+  background-color: red;
+  border-radius: 12px;
+}
+#btn1:hover{
+  background-color: black;
+  color: red;
+}
+#word{
+  color: white;
+  font-size: 25px;
+}
+#faults{
+  color: white;
+  font-size: 25px;
+}
+@media:(min-device-width: 480px) {
+
+}
